@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+.service-form {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+
+.service-form h2 {
+    margin-top: 0;
+}
+
+.service-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.service-form select,
+.service-form input[type="date"],
+.service-form input[type="time"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.service-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.service-form button:hover {
+    background-color: #555;
+}
